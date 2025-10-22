@@ -1,62 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,400&family=Satisfy&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  overflow: hidden;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #8e9aaf;
-  font-family: 'Roboto', 'Courier New', Courier, monospace;
-  font-weight: 300;
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.container {
-  background-color: #cbc0d3;
-  border-radius: 10px 10px 10px 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-  padding: 50px 20px;
-  text-align: center;
-  max-width: 100%;
-  width: 800px;
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
-h3 {
-  margin: 0;
-  opacity: 0.5;
-  letter-spacing: 2px;
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2ecc71;
 }
 
-.joke {
-  font-size: x-large;
-  letter-spacing: 1px;
-  line-height: 40px;
-  margin: 50px auto;
-  max-width: 600px;
+.product-description {
+  color: #555;
+  line-height: 1.6;
 }
 
-.btn {
-  background-color: #efd3d7;
-  border: 0;
-  padding: 10px 15px;
-  border-radius: 10px 10px 10px 0px;
-  padding: 10px 40px;
-  font-size: 16px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-.btn:active {
-  transform: scale(0.98);
-}
-
-.btn:focus {
-  outline: 0;
+.product-category {
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
 }
