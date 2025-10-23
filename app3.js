@@ -1,6 +1,6 @@
 const container = document.createElement("div");
 document.body.appendChild(container);
-container.classList.add("products-container");
+container.classList.add("product-container");
 
 async function getRoM() {
   try {
