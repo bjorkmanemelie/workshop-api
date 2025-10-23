@@ -28,6 +28,12 @@ async function getRoM() {
       episode.textContent = `Episodes: ${tvShow.episode.length}`;
       episode.classList.add("product-episode");
 
+      const image = document.createElement("img");
+      image.src = tvShow.image;
+      image.alt = tvShow.name;
+      image.classList.add("product-image");
+
+      productCard.appendChild(image);
       productCard.appendChild(episode);
       productCard.appendChild(characters);
       productCard.appendChild(location);
