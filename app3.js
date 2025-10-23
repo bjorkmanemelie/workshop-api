@@ -2,7 +2,7 @@ const container = document.createElement("div");
 document.body.appendChild(container);
 container.classList.add("products-container");
 
-async function getMoM() {
+async function getRoM() {
   try {
     //try betyder att koden försöker köra något som KAN gå fel.
     const url = "https://rickandmortyapi.com/api/character"; //fetchar endpointen
@@ -28,4 +28,4 @@ async function getMoM() {
   }
 }
 
-getMoM();
+getRoM();
